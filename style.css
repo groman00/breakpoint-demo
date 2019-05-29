@@ -1,0 +1,15 @@
+html {
+  font-family: 'screen:mobile';
+}
+
+@media (min-width: 768px) {
+  html {
+    font-family: 'screen:tablet';
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-family: 'screen:desktop';
+  }
+}
